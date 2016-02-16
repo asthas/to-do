@@ -1,4 +1,5 @@
 var app = angular.module('app', []);
+app.controller('mainController', mainController);
 
 function mainController($scope, $http){
 	$scope.formData = {};
