@@ -65,7 +65,7 @@ app.delete('/api/todos/:todo_id', function(req, res){
 	});
 });
 app.get('*', function(req, res){
-	res.sendfile('./public/index.html');
+	res.sendFile('./public/index.html');
 });
 //listen
 app.listen(8080);
